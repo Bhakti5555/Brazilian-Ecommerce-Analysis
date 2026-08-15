@@ -2,31 +2,32 @@
 
 ## Project Overview
 
-This project analyzes the Brazilian E-Commerce Public Dataset using SQL and Power BI. The objective was to extract business insights related to sales performance, customer behavior, product categories, payment methods, reviews, and delivery performance.
+This project analyzes the Brazilian E-Commerce Public Dataset (Olist) using SQL, Python, and Power BI to uncover insights related to revenue, customer behavior, payment methods, product performance, and delivery efficiency.
 
-The project follows a complete data analytics workflow:
+The project follows a complete Data Analytics workflow:
+
 - Data Cleaning
-- SQL Analysis
 - Exploratory Data Analysis (EDA)
-- KPI Generation
-- Interactive Power BI Dashboard Development
+- SQL Analysis
+- Dashboard Development
+- Business Insights Generation
 
 ---
 
 ## Tools & Technologies
 
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
 - SQL (MySQL)
 - Power BI
-- Excel / CSV
+- Jupyter Notebook
 - GitHub
 
 ---
 
 ## Dataset
 
-Brazilian E-Commerce Public Dataset by Olist.
+The Brazilian E-Commerce Public Dataset by Olist contains information about:
 
-The dataset contains information about:
 - Customers
 - Orders
 - Products
@@ -35,17 +36,30 @@ The dataset contains information about:
 - Reviews
 - Geolocation Data
 
+Dataset Size:
+- 100K+ Orders
+- Multiple interconnected tables
+- Real-world e-commerce transactions
+
 ---
 
 ## Key Performance Indicators (KPIs)
 
-The dashboard includes the following KPIs:
+The dashboard tracks:
 
-- Total Revenue
-- Total Orders
-- Total Customers
-- Average Review Score
-- Average Delivery Days
+- Total Revenue → 16.01M
+- Total Customers → 96K
+- Total Orders → 99K
+- Average Review Score → 4.09
+- Average Delivery Days → 12.09
+
+---
+
+## Dashboard Preview
+
+[![Dashboard](dashboard%20ss.png)](https://drive.google.com/file/d/1cCOeJnWDBpSSef9braDuPy6SHFZQWHw4/view?usp=sharing)
+
+*Click the image above to access the Power BI dashboard.*
 
 ---
 
@@ -56,12 +70,12 @@ The dashboard includes the following KPIs:
 - Top Revenue Generating States
 
 ### Product Analysis
-- Top Product Categories by Revenue
+- Top 5 Product Categories by Revenue
 
 ### Payment Analysis
 - Payment Method Distribution
 
-### Logistics Analysis
+### Delivery Analysis
 - Top States by Average Delivery Time
 
 ### Interactive Filters
@@ -74,51 +88,42 @@ The dashboard includes the following KPIs:
 ## Key Insights
 
 - Credit Card is the most preferred payment method.
-- Revenue shows strong growth across multiple periods.
-- Certain states contribute significantly more revenue than others.
-- Health & Beauty and Home-related categories are among the highest revenue-generating categories.
-- Customer review scores remain generally positive.
-- Delivery performance varies across different states.
+- Revenue shows a strong upward trend during the observed period.
+- São Paulo (SP) generates the highest revenue among all states.
+- Health & Beauty is the top-performing product category.
+- Average customer review score remains above 4, indicating positive customer satisfaction.
+- Delivery times vary significantly across states.
 
 ---
 
-## Dashboard Preview
+## Project Files
 
-### Main Dashboard
-
-![Dashboard](<img width="1325" height="742" alt="dashboard ss" src="https://github.com/user-attachments/assets/089b04d2-63a8-4008-84e7-dc8f3d14a160" />
-)
-
----
-
-## SQL Analysis
-
-SQL was used to analyze:
-
-- Revenue Trends
-- Customer Behavior
-- Product Performance
-- Payment Analysis
-- Review Analysis
-- Delivery Performance
-
-The complete SQL queries are available in:
-
-```sql
- [SQL Queries]
-```
+- [SQL Analysis](SQL.sql)
+- [EDA Notebook](EDA.ipynb)
+- [Data Cleaning Notebook](data%20cleaning.ipynb)
+- [Dashboard Screenshot](dashboard%20ss.png)
+- [Power BI Dashboard](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)
 
 ---
 
-## Power BI Report
+## Project Workflow
 
-Due to GitHub file size limitations, the Power BI (.pbix) file is hosted externally.
-
-Power BI File:
-(https://drive.google.com/file/d/1cCOeJnWDBpSSef9braDuPy6SHFZQWHw4/view?usp=sharing)
+1. Data Cleaning using Python
+2. Exploratory Data Analysis (EDA)
+3. SQL-based Business Analysis
+4. KPI Creation
+5. Dashboard Development in Power BI
+6. Business Insights Extraction
 
 ---
 
+## Future Improvements
 
+- Customer Segmentation Analysis
+- Seller Performance Dashboard
+- Predictive Sales Forecasting
+- Customer Lifetime Value Analysis
 
+---
 
+#kti5555
