@@ -118,8 +118,6 @@ Power BI File:
 
 ---
 
-Bazilian_Ecommerce_Dashboard.pbix (Google Drive)
-```
 
 
 
