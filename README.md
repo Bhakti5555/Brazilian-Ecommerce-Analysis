@@ -86,7 +86,8 @@ The dashboard includes the following KPIs:
 
 ### Main Dashboard
 
-![Dashboard](dashboard.png)
+![Dashboard](<img width="1325" height="742" alt="dashboard ss" src="https://github.com/user-attachments/assets/089b04d2-63a8-4008-84e7-dc8f3d14a160" />
+)
 
 ---
 
@@ -104,7 +105,7 @@ SQL was used to analyze:
 The complete SQL queries are available in:
 
 ```sql
-sql_queries.sql
+ [SQL Queries]
 ```
 
 ---
